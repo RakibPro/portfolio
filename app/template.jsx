@@ -27,7 +27,7 @@ const Template = ({ children }) => {
                 style={{ transform: `translateX(${completion - 100}%)` }}
                 className='fixed z-50 bg-primary w-full h-1 top-0 bottom-0 left-0 transition-all duration-700'
             ></span>
-            <div className='h-[4000px]'></div>
+            <div className='h-[1000px]'></div>
         </>
     );
 };
